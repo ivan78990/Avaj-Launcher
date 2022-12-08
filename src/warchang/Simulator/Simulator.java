@@ -17,13 +17,13 @@ public class Simulator {
     public static void main(String[] args) throws IOException {
         
         try {
-            // File file = new File("mbortnic/avaj/src/scenario.txt");
+            // File file = new File("warchang/avaj/src/scenario.txt");
 
             BufferedReader reader = new BufferedReader(new FileReader(args[0]));
             String str = reader.readLine();
 
             if (args.length == 0 || args.length > 1) {
-                throw new UsageException((char)27 + "[33mUsage: java mbortnic.Simulator.Simulator [filename]" + (char)27 + "[0m");
+                throw new UsageException((char)27 + "[33mUsage: java warchang.Simulator.Simulator [filename]" + (char)27 + "[0m");
             }
 
             if (str == null) {
@@ -83,12 +83,12 @@ public class Simulator {
         // catch (ArrayIndexOutOfBoundsException exception) 
         // {
         //     System.out.println((char)27 + "[31mSpecify scenario file." + (char)27 + "[0m");
-        //     System.out.println((char)27 + "[33mUsage: java mbortnic.Simulator.Simulator [filename]" + (char)27 + "[0m");
+        //     System.out.println((char)27 + "[33mUsage: java warchang.Simulator.Simulator [filename]" + (char)27 + "[0m");
         // } 
         
        
-        // mbortnic.Aircrafts.Coordinates coords = new mbortnic.Aircrafts.Coordinates(16, 17, 50);
-        // mbortnic.Aircrafts.Helicopter.Aircraft craft = new mborntic.Aircrafts.Helicopter.Aircraft("Heli", coords);
+        // warchang.Aircrafts.Coordinates coords = new warchang.Aircrafts.Coordinates(16, 17, 50);
+        // warchang.Aircrafts.Helicopter.Aircraft craft = new mborntic.Aircrafts.Helicopter.Aircraft("Heli", coords);
 
     }
 

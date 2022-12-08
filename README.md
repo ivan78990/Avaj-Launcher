@@ -10,7 +10,7 @@ If necessary, add more classes or include additional attributes, but changing ac
 
 ## Compile and run
 ```
-git clone https://github.com/mbortnichuk/avaj-launcher.git
+git clone https://github.com/ivan78990/avaj-launcher.git
 cd avaj-launcher/src/
 ````
 Before launching make sure that you have Java installed and `java` & `javac` commands are available in your terminal. If not, click [here](https://java.com/en/download/help/mac_install.xml) to install Java for Mac.
@@ -19,7 +19,7 @@ In the root of project folder run the commands given bellow:
 ```
 find -name *.java > sources.txt
 javac -sourcepath @sources.txt
-java mbortnic.Simulator.Simulator scenario.txt
+java warchang.Simulator.Simulator scenario.txt
 ````
 Or you can use run.sh in the root of project folder. To launch use:
 ```
